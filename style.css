@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+html,
+body { height: 100% }
+body {
+ background-color: #FF6B62;
+ font-family: 'Nunito Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+.header-area {
+    padding: 25px 0;
+}
+.animation {
+  display: flex;
+  justify-content: center;
+}
+.body-content h2 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #2E2F33;
+}
+.body-content h2 span {
+  color: #fff;
+}
+a.btn.btn-custom {
+    background: #2E2F33;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 9px 24px;
+}
+
+.footer-area {
+  color: #fff;
+}
+.footer-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-area ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.footer-area li a {
+  color: #fff;
+}
+ul.footer-menu {
+  text-align: right;
+}
+.footer-area .row {
+  border-top: 1px solid #fff;
+  padding: 20px 0;
+}
+.footer-area p {
+  margin-bottom: 0;
+}
+.body-content {
+    padding-top: 3%;
+    padding-bottom: 7.5%;
+}
+.body-area.main {
+    height: 73vh;
+}
+.body-content h2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.animation img {
+    height: 150px;
+}
+.header-area img {
+    height: 50px;
+}
+.body-content a {
+    color: blue;
+    padding: 10px 0;
+    display: inline-block;
+}
+.body-content a:hover {
+  text-decoration: underline;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0;
+}
+a.btn.btn-custom:hover {
+    background-color: #4f4f4f;
+}
+.footer-menu li a:hover {
+    text-decoration: underline;
+}
