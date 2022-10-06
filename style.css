@@ -100,7 +100,7 @@ ul.footer-menu {
     display: inline-block;
 }
 .body-content a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn.focus, .btn:focus {
     outline: 0;
@@ -111,4 +111,18 @@ a.btn.btn-custom:hover {
 }
 .footer-menu li a:hover {
     text-decoration: underline;
+}
+
+.contact-tab a {
+  text-align: right;
+  text-decoration: none;
+  margin-left: 80%;
+}
+
+.contact-tab a:hover {
+  text-decoration: underline;
+}
+
+#underline a:hover  {
+  text-decoration: underline;
 }
